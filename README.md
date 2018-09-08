@@ -9,7 +9,7 @@ Simple HAproxy setup using openstack and terraform
 ### Summary
 The script will create
 - A network
-- ports for static IP addresses
+- Ports for static IP addresses
 - A security group 
 - 5 centos instances
   - 1 for the haproxy server
