@@ -1,10 +1,10 @@
 # ost-tf-haproxy
 Simple HAproxy setup using openstack and terraform
 
-### Required
+### Note
 **You will need to source your openstack RC file for this to work.**
 
-**you will need to amend the image and flavor ID to reflect your environment**
+**You will need to amend the image and flavor ID to reflect your environment**
 
 ### Summary
 The script will create
