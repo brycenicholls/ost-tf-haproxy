@@ -176,7 +176,7 @@ resource "openstack_compute_instance_v2" "webserver-1" {
   network {
     port = "${openstack_networking_port_v2.port_2.id}"
   }
-  user_data = "${file("bootstrapweb.sh")}"
+  user_data = "${file("webserver.sh")}"
 }
 
 ##----------------------------< webserver-2 create >----------------------------##
@@ -195,7 +195,7 @@ resource "openstack_compute_instance_v2" "webserver-2" {
   network {
     port = "${openstack_networking_port_v2.port_3.id}"
   }
-  user_data = "${file("bootstrapweb.sh")}"
+  user_data = "${file("webserver.sh")}"
 }
 
 ##----------------------------< webserver-3 create >----------------------------##
@@ -214,7 +214,7 @@ resource "openstack_compute_instance_v2" "webserver-3" {
   network {
     port = "${openstack_networking_port_v2.port_4.id}"
   }
-  user_data = "${file("bootstrapweb.sh")}"
+  user_data = "${file("webserver.sh")}"
 }
 
 ##----------------------------< webserver-4 create >----------------------------##
@@ -233,7 +233,7 @@ resource "openstack_compute_instance_v2" "webserver-4" {
   network {
     port = "${openstack_networking_port_v2.port_5.id}"
   }
-  user_data = "${file("bootstrapweb.sh")}"
+  user_data = "${file("webserver.sh")}"
 }
 
 
