@@ -1,6 +1,6 @@
 # ost-tf-haproxy
 Simple HAproxy setup using openstack and terraform
-
+![logical diagram](images/ostack-tf-haproxy.png)
 ### Note
 **You will need to source your openstack RC file for this to work.**
 
