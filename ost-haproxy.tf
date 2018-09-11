@@ -22,7 +22,7 @@ resource "openstack_networking_subnet_v2" "subnet_1" {
 resource "openstack_networking_router_v2" "R-HA" {
   name                = "R-HA"
   admin_state_up      = true
-  external_network_id = "893a5b59-081a-4e3a-ac50-1e54e262c3fa"
+  external_network_id = "internet"
 }
 
 ##----------------------------< attach R1 to network_1 >----------------------------##
